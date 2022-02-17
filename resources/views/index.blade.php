@@ -414,7 +414,7 @@
     <div class="col-md-4">
       <h3>Contact Info</h3>
       <div class="contact-item">
-        <p>Phone/Whatsapp: </p><p><a href="https://wa.me/+6285333096854" target="_blank">+1 123 456 1234</a></p>
+        <p>Phone/Whatsapp: </p><p><a href="https://wa.me/+6285333096854">+1 123 456 1234</a></p>
         <p>Email: info@company.com</p>
       </div>
     </div>
