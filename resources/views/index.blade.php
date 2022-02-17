@@ -54,10 +54,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+        <!--<li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>-->
         <li><a href="#portfolio" class="page-scroll">Shop by Category</a></li>
-        <li><a href="#team" class="page-scroll">Chefs</a></li>
         <li><a href="#contact" class="page-scroll">Contact</a></li>
+        <li><a href="#team" class="page-scroll">Chefs</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -98,7 +98,7 @@
   </div>
 </div>
 <!-- Restaurant Menu Section -->
-<div id="restaurant-menu">
+<!--<div id="restaurant-menu">
   <div class="section-title text-center center">
     <div class="overlay">
       <h2>Menu</h2>
@@ -216,7 +216,7 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
 <!-- Portfolio Section -->
 <div id="portfolio">
   <div class="section-title text-center center">
@@ -357,6 +357,74 @@
     </div>
   </div>
 </div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Contact</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+    </div>
+    
+  <!--
+      <div class="col-md-10 col-md-offset-1">
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+        </form>
+      </div>
+  -->
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="col-md-4">
+      <h3>Address</h3>
+      <div class="contact-item">
+        <p>4321 California St,</p>
+        <p>San Francisco, CA 12345</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>Opening Hours</h3>
+      <div class="contact-item">
+        <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
+        <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h3>Contact Info</h3>
+      <div class="contact-item">
+        <p>Phone: +1 123 456 1234</p>
+        <p>Email: info@company.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center copyrights">
+    
+  </div>
+</div>
+<!--end of Contact section-->
+
 <!-- Team Section -->
 <div id="team" class="text-center">
   <div class="overlay">
@@ -407,80 +475,7 @@
   </div>
 </div>
 -->
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2>Contact</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-    
-<!--
-    <div class="col-md-10 col-md-offset-1">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
-    </div>
--->
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="col-md-4">
-      <h3>Address</h3>
-      <div class="contact-item">
-        <p>4321 California St,</p>
-        <p>San Francisco, CA 12345</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Opening Hours</h3>
-      <div class="contact-item">
-        <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-        <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Contact Info</h3>
-      <div class="contact-item">
-        <p>Phone: +1 123 456 1234</p>
-        <p>Email: info@company.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid text-center copyrights">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
-      </div>
-      <!--<p>&copy; 2016 Touché. All rights reserved. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>-->
-    </div>
-  </div>
-</div>
+
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
