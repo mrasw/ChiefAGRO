@@ -56,7 +56,7 @@
         <li><a href="#about" class="page-scroll">About</a></li>
         <!--<li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>-->
         <li><a href="#portfolio" class="page-scroll">Shop by Category</a></li>
-        <li><a href="#contact" class="page-scroll">Contact</a></li>
+        <li><a href="#contact" class="page-scroll">Consultation</a></li>
         <li><a href="#team" class="page-scroll">Chefs</a></li>
       </ul>
     </div>
@@ -362,7 +362,7 @@
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title text-center">
-      <h2>Contact</h2>
+      <h2>Consultation</h2>
       <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
     </div>
@@ -414,7 +414,7 @@
     <div class="col-md-4">
       <h3>Contact Info</h3>
       <div class="contact-item">
-        <p>Phone: +1 123 456 1234</p>
+        <p>Phone/Whatsapp: </p><p><a href="https://wa.me/+6285333096854" target="_blank">+1 123 456 1234</a></p>
         <p>Email: info@company.com</p>
       </div>
     </div>
