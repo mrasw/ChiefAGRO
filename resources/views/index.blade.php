@@ -57,7 +57,7 @@
         <!--<li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>-->
         <li><a href="#portfolio" class="page-scroll">Shop by Category</a></li>
         <li><a href="#contact" class="page-scroll">Consultation</a></li>
-        <li><a href="#team" class="page-scroll">Chefs</a></li>
+        <li><a href="#team" class="page-scroll">Account</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
