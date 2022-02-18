@@ -89,9 +89,9 @@
         <div class="about-text">
           <h2>Our Shop</h2>
           <hr>
-          <p><font size="4,5">Tempat anda mencari berbagai macam obat tanaman, hewan, dan ikan.</font></p>
+          <p><font size="4,5">Tempat anda mencari berbagai macam obat tanaman, hewan, dan ikan serta platform penyedia layanan konsultasi online dan juga marketplace khususnya di sektor agrokompleks.</font></p>
           <!--<h3>Awarded Chefs</h3>-->
-          <p><font size="4,5">ketahui apa masalah pada tanaman, hewan, dan ikan anda dan temukan solusinya.</font></p>
+          <p><font size="4,5">ketahui apa masalah pada tanaman, hewan, dan ikan anda serta temukan solusinya disini.</font></p>
         </div>
       </div>
     </div>
