@@ -430,7 +430,7 @@
   <div class="overlay">
     <div class="container">
       <div class="col-md-10 col-md-offset-1 section-title">
-        <h2>Meet Our Chefs</h2>
+        <h2>Meet Our Professional</h2>
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
       </div>
