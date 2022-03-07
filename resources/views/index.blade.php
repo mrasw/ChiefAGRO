@@ -18,6 +18,9 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+<!-- bootsrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
@@ -57,7 +60,8 @@
         <!--<li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>-->
         <li><a href="#portfolio" class="page-scroll">Shop by Category</a></li>
         <li><a href="#contact" class="page-scroll">Consultation</a></li>
-        <li><a href="#team" class="page-scroll">Account</a></li>
+        <!--<li><a href="#team" class="page-scroll">Account</a></li>-->
+        <li><a href="/login">Account</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -234,7 +238,7 @@
             <ol class="type">
               <li><a href="#" data-filter="*" class="active">All</a></li>
               <li><a href="#" data-filter=".breakfast">Bibit Tanaman</a></li>
-              <li><a href="#" data-filter=".lunch">Pembasmi Hama</a></li>
+              <li><a href="#" data-filter=".lunch">Pupuk Tanaman</a></li>
               <li><a href="#" data-filter=".dinner">Pet Food</a></li>
               <li><a href="#" data-filter=".dinner">Khusus Ikan</a></li>
             </ol>
@@ -308,7 +312,7 @@
               <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
+        <!--<div class="col-sm-6 col-md-4 col-lg-4 breakfast">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -316,8 +320,8 @@
               </div>
               <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
+        </div>-->
+        <!--<div class="col-sm-6 col-md-4 col-lg-4 dinner">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -325,8 +329,8 @@
               </div>
               <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
+        </div>-->
+        <!--<div class="col-sm-6 col-md-4 col-lg-4 lunch">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
               <div class="hover-text">
@@ -334,7 +338,7 @@
               </div>
               <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
-        </div>
+        </div>-->
         <div class="col-sm-6 col-md-4 col-lg-4 lunch">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
@@ -344,14 +348,14 @@
               <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
+        <!--<div class="col-sm-6 col-md-4 col-lg-4 breakfast">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
               <div class="hover-text">
                 <h4>Dish Name</h4>
               </div>
               <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -364,7 +368,12 @@
     <div class="section-title text-center">
       <h2>Consultation</h2>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+      <p>Need help about Farm and Pet? just click <a href="https://forms.gle/NnCVm6qPWoyBgy819">link here</a> :D</p>
+      <p>Need help with an existing order you've placed?</p>
+      <p>Question about shipping costs or the best delivery to choose for both city and regional orders?</p>
+      <p>For general product questions, product suggestions, ordering questions, marketing, or other information?</p>
+      <p>Are you vendor interested in submitting a product for our store to carry?</p>
+      <p>Just Contact Us at the contact below :D</p>
     </div>
     
   <!--
@@ -400,22 +409,21 @@
     <div class="col-md-4">
       <h3>Address</h3>
       <div class="contact-item">
-        <p>4321 California St,</p>
-        <p>San Francisco, CA 12345</p>
+        <p><a href="https://linktr.ee/ChiefAGRO">Toko Pedia</a></p>
       </div>
     </div>
     <div class="col-md-4">
       <h3>Opening Hours</h3>
       <div class="contact-item">
-        <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-        <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+        <p>Mon-Sun: 08:00 AM - 07:00 PM</p>
+        <!--<p>Fri-Sun: 11:00 AM - 02:00 AM</p>-->
       </div>
     </div>
     <div class="col-md-4">
       <h3>Contact Info</h3>
       <div class="contact-item">
-        <p>Phone/Whatsapp: </p><p><a href="https://wa.me/+6285333096854">+1 123 456 1234</a></p>
-        <p>Email: info@company.com</p>
+        <p>Phone/Whatsapp: </p><p><a href="https://wa.me/+62812471090661">+62 812 471 090 661</a></p>
+        <p>Email: chiefagro@gmail.com</p>
       </div>
     </div>
   </div>
@@ -426,7 +434,7 @@
 <!--end of Contact section-->
 
 <!-- Team Section -->
-<div id="team" class="text-center">
+<!--<div id="team" class="text-center">
   <div class="overlay">
     <div class="container">
       <div class="col-md-10 col-md-offset-1 section-title">
@@ -465,7 +473,7 @@
       </div>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- Call Reservation Section -->
 <!--
