@@ -71,7 +71,7 @@
             <li><a class="dropdown-item" href="#"><i class="bi bi-basket"></i> Keranjang</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
             <li>
-              <form action="logout" method="post">
+              <form action="logout" method="get">
                 @csrf
                 <!-- <li><a class="dropdown-item" href="logout"><i class="bi bi-box-arrow-left"></i> Logout</a></li> -->
                 <button type="submit" class="dropdown-item"><a class="dropdown-item" href="logout"><i class="bi bi-box-arrow-left"></i> Logout</a></button>
