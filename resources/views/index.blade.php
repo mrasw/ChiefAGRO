@@ -61,7 +61,28 @@
         <li><a href="#portfolio" class="page-scroll">Shop by Category</a></li>
         <li><a href="#contact" class="page-scroll">Consultation</a></li>
         <!--<li><a href="#team" class="page-scroll">Account</a></li>-->
-        <li><a href="/login">Account</a></li>
+        @auth
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+            Welcome Back, {{ auth()->user()->name }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-layout-text-window-reverse"></i> DashBoard</a></li>
+            <li><a class="dropdown-item" href="#"><i class="bi bi-basket"></i> Keranjang</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li>
+              <form action="logout" method="post">
+                @csrf
+                <!-- <li><a class="dropdown-item" href="logout"><i class="bi bi-box-arrow-left"></i> Logout</a></li> -->
+                <button type="submit" class="dropdown-item"><a class="dropdown-item" href="logout"><i class="bi bi-box-arrow-left"></i> Logout</a></button>
+              </form>
+            </li>
+          </ul>
+        </li>
+        @else
+          <li><a href="/login">Account</a></li>
+        @endauth
+      
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
