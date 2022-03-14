@@ -1,9 +1,12 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
+use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ListController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\KeranjangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,4 +31,8 @@ Route::get('logout', [LoginController::class, 'logout']);
 Route::get('register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('register', [RegisterController::class, 'store']);
 
-Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
+Route::get('/dashboard',function() {return view('dashboard.index');})->middleware('auth');
+
+Route::get('keranjang', [KeranjangController::class, 'index'])->Middleware('auth');
+
+Route::get('list', [ListController::class, 'show']);

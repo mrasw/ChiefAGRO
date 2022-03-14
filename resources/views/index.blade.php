@@ -68,7 +68,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/dashboard"><i class="bi bi-layout-text-window-reverse"></i> DashBoard</a></li>
-            <li><a class="dropdown-item" href="#"><i class="bi bi-basket"></i> Keranjang</a></li>
+            <li><a class="dropdown-item" href="keranjang"><i class="bi bi-cart4"></i></i> Keranjang</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
             <li>
               <form action="logout" method="get">
@@ -122,126 +122,7 @@
     </div>
   </div>
 </div>
-<!-- Restaurant Menu Section -->
-<!--<div id="restaurant-menu">
-  <div class="section-title text-center center">
-    <div class="overlay">
-      <h2>Menu</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Breakfast & Starters</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $35 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Main Course</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $45 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Dinner</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $45 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $350 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Coffee & Drinks</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $35 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>-->
+
 <!-- Portfolio Section -->
 <div id="portfolio">
   <div class="section-title text-center center">
@@ -333,33 +214,7 @@
               <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <!--<div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>-->
-        <!--<div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>-->
-        <!--<div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>-->
+
         <div class="col-sm-6 col-md-4 col-lg-4 lunch">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
@@ -369,14 +224,7 @@
               <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <!--<div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>-->
+
         </div>
       </div>
     </div>
@@ -397,32 +245,7 @@
       <p>Just Contact Us at the contact below :D</p>
     </div>
     
-  <!--
-      <div class="col-md-10 col-md-offset-1">
-        <form name="sentMessage" id="contactForm" novalidate>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-group">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-            <p class="help-block text-danger"></p>
-          </div>
-          <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-        </form>
-      </div>
-  -->
+  
   </div>
 </div>
 <div id="footer">
@@ -437,7 +260,6 @@
       <h3>Opening Hours</h3>
       <div class="contact-item">
         <p>Mon-Sun: 08:00 AM - 07:00 PM</p>
-        <!--<p>Fri-Sun: 11:00 AM - 02:00 AM</p>-->
       </div>
     </div>
     <div class="col-md-4">
@@ -448,62 +270,13 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid text-center copyrights">
+  <div class="container-fluid text-center ">
     
   </div>
 </div>
 <!--end of Contact section-->
 
-<!-- Team Section -->
-<!--<div id="team" class="text-center">
-  <div class="overlay">
-    <div class="container">
-      <div class="col-md-10 col-md-offset-1 section-title">
-        <h2>Meet Our Professional</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-      </div>
-      <div id="row">
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/01.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Mike Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Chris Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Ethan Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>-->
 
-<!-- Call Reservation Section -->
-<!--
-<div id="call-reservation" class="text-center">
-  <div class="container">
-    <h2>Want to make a reservation? Call <strong>1-887-654-3210</strong></h2>
-  </div>
-</div>
--->
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
